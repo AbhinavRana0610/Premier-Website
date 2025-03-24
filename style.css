@@ -1,0 +1,663 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.nav {
+  color: black;
+  display: flex;
+  border: 2px solid black;
+  margin-top: 2rem;
+  height: 10vh;
+  align-items: center;
+  font-size: 1rem;
+  position: relative;
+  font-weight: 500;
+  gap: 2rem;
+}
+.premier {
+  margin-right: 14rem;
+  margin-left: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
+  font-family: Alfa Slab One;
+}
+.model {
+  font-family: Roboto;
+}
+.copy {
+  font-size: 1rem;
+  position: absolute;
+  top: 2px;
+  left: 210px;
+}
+.management {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 48px;
+  left: 105px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Women {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  border-left: solid 2px black;
+  border-right: 2px solid black;
+  padding: 19px 60px;
+  font-family: Roboto;
+}
+.agency {
+  margin-right: 3rem;
+  padding-left: 3rem;
+  font-family: Roboto;
+}
+.search {
+  border-left: 2px solid black;
+  padding-top: 20.5px;
+  padding-bottom: 21.5px;
+  padding-left: 8rem;
+}
+.video {
+  width: 73.9rem;
+  height: 39rem;
+  border-radius: 20px;
+}
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.image-container {
+  display: inline-block;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  will-change: transform;
+  animation-name: scroll;
+}
+.parent {
+  margin-top: 30px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  animation-name: scroll;
+  margin-right: 50px;
+}
+.circle-images {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.alphabets {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  align-items: center;
+  padding: 25px 0px;
+  font-size: 1.5rem;
+}
+
+.alls {
+  padding-left: 45px;
+  margin-right: 30px;
+  font-size: 2.4rem;
+  text-decoration: underline;
+  font-family: Caveat;
+}
+.all {
+  font-family: Caveat;
+  font-weight: 800;
+}
+.all:hover {
+  border: 2px solid black;
+  border-radius: 50%;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+}
+.bottom-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 80px;
+  border-radius: 10px;
+}
+
+.img1 {
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px;
+  height: 500px;
+  width: 400px;
+}
+.img2 {
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px;
+  height: 400px;
+  width: 350px;
+}
+.update {
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 80px;
+  margin-left: 600px;
+  font-family: Alfa Slab One;
+  font-weight: 400;
+  font-family: Kanit;
+}
+.designer {
+  display: flex;
+  margin-top: 0px;
+  border-top: 2px solid black;
+  font-family: Noto Serif Khitan Small Script;
+  position: relative;
+}
+.designer:hover {
+  background-color: rgb(248, 248, 196);
+}
+.designer-top {
+  display: flex;
+  margin-top: 40px;
+  border-top: 2px solid black;
+  font-family: Noto Serif Khitan Small Script;
+  position: relative;
+}
+.designer-top:hover {
+  background-color: rgb(248, 248, 196);
+}
+.designer-bottom {
+  display: flex;
+  margin-top: 0px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  font-family: Noto Serif Khitan Small Script;
+  position: relative;
+}
+.designer-bottom:hover {
+  background-color: rgb(248, 248, 196);
+}
+.mens {
+  margin-left: 50px;
+  margin-right: 600px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(-100% - 54px));
+  }
+}
+.parent2 {
+  margin-top: 30px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  animation-name: scroll;
+}
+.para-container {
+  display: inline-block;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  will-change: transform;
+  animation-name: scroll;
+  border-top: 2px solid black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+.premier-para {
+  font-size: 3rem;
+  font-family: Yatra One;
+}
+.fashion {
+  margin-top: -40px;
+}
+.march {
+  margin-top: -40px;
+  font-size: 0.8rem;
+}
+.pexels {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  border-radius: 50%;
+  top: 20%;
+  left: 10%;
+  opacity: 0;
+}
+.designer-top:hover .pexels {
+  animation: move-image 1.5s forwards; /* run the animation only once */
+}
+.designer:hover .pexels {
+  animation: move-image 1.5s forwards; /* run the animation only once */
+}
+
+.designer-bottom:hover .pexels {
+  animation: move-image 1.5s forwards; /* run the animation only once */
+}
+
+@keyframes move-image {
+  0% {
+    left: 15%;
+  }
+  10% {
+    opacity: 10%;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 40%;
+  }
+  75% {
+    opacity: 70%;
+  }
+  90% {
+    opacity: 85%;
+  }
+  100% {
+    left: 43%;
+    transform: translateX(-50%);
+    opacity: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* * {
+    outline: solid 2px red;
+  } */
+  .nav {
+    width: 100%;
+    gap: 0rem;
+  }
+  .model {
+    font-size: 0.8rem;
+  }
+  .agency {
+    padding-right: 0.1rem;
+    padding-left: 1rem;
+    font-family: Roboto;
+    font-size: 0.8rem;
+  }
+
+  .premier {
+    margin-right: 4rem;
+    margin-left: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-family: Alfa Slab One;
+  }
+  .Women {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border-left: solid 2px black;
+    border-right: 2px solid black;
+    padding: 19px 60px;
+    font-family: Roboto;
+    font-size: 0.8rem;
+  }
+  .copy {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 9px;
+    left: 115px;
+  }
+  .search {
+    border-left: 2px solid black;
+    padding-top: 20.5px;
+    padding-bottom: 21.5px;
+    padding-left: 170%;
+    font-size: 0.8rem;
+  }
+  .management {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .parent {
+    width: 100%;
+  }
+  .alls {
+    padding-left: 15px;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-family: Caveat;
+  }
+  .alphabets {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding: 25px 0px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+    outline: 2px solid green;
+  }
+  .video {
+    width: 45.1rem;
+    height: 23.8rem;
+    border-radius: 20px;
+    /* outline: 2px solid blue; */
+  }
+  .march {
+    margin-top: 0px;
+    font-size: 0.7rem;
+  }
+  .fashion {
+    margin-top: -20px;
+  }
+  .mens {
+    margin-left: 50px;
+    margin-right: 400px;
+  }
+  .designer-top {
+    display: flex;
+    margin-top: 40px;
+    border-top: 2px solid black;
+    font-family: Noto Serif Khitan Small Script;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+  .designer {
+    width: 100%;
+    white-space: nowrap;
+  }
+  .designer-bottom {
+    width: 100%;
+  }
+  .parent2 {
+    width: 100%;
+  }
+  .update {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-left: 0px;
+    font-family: Alfa Slab One;
+    font-weight: 400;
+    font-family: Kanit;
+  }
+  .update-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom-images {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    height: 300px;
+    width: 250px;
+  }
+  .img2 {
+    height: 250px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1220px) {
+  /* * {
+    outline: solid 2px red;
+  } */
+  .nav {
+    width: 100%;
+    gap: 0rem;
+  }
+
+  .agency {
+    padding-right: 0.1rem;
+    padding-left: 1rem;
+    font-family: Roboto;
+  }
+
+  .premier {
+    margin-right: 10rem;
+    margin-left: 3rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    font-family: Alfa Slab One;
+  }
+  .search {
+    border-left: 2px solid black;
+    padding-top: 20.5px;
+    padding-bottom: 21.5px;
+    padding-left: 170%;
+  }
+  .management {
+    font-size: 0.8rem;
+    position: absolute;
+    top: 45px;
+    left: 105px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .parent {
+    width: 100%;
+  }
+  .alls {
+    padding-left: 25px;
+    margin-right: 30px;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: Caveat;
+  }
+  .alphabets {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding: 25px 0px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+    outline: 2px solid green;
+  }
+  .video {
+    width: 55rem;
+    height: 29rem;
+    border-radius: 20px;
+    /* outline: 2px solid blue; */
+  }
+  .designer-top {
+    width: 100%;
+  }
+  .designer {
+    width: 100%;
+  }
+  .designer-bottom {
+    width: 100%;
+  }
+  .parent2 {
+    width: 100%;
+  }
+  .update {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-left: 0px;
+    font-family: Alfa Slab One;
+    font-weight: 400;
+    font-family: Kanit;
+  }
+  .update-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom-images {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    height: 400px;
+    width: 350px;
+  }
+  .img2 {
+    height: 350px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1220px) and (max-width: 1440px) {
+  /* * {
+    outline: solid 2px red;
+  } */
+  .nav {
+    width: 100%;
+  }
+
+  .premier {
+    margin-right: 10rem;
+    margin-left: 3rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    font-family: Alfa Slab One;
+  }
+
+  .search {
+    border-left: 2px solid black;
+    padding-top: 20.5px;
+    padding-bottom: 21.5px;
+    padding-left: 200%;
+  }
+  .management {
+    font-size: 0.8rem;
+    position: absolute;
+    top: 45px;
+    left: 105px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .parent {
+    width: 100%;
+  }
+
+  .alls {
+    font-size: 2.4rem;
+    margin-left: 45px;
+  }
+
+  .alphabets {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+    /* outline: 2px solid red; */
+  }
+  .video {
+    width: 64.5rem;
+    height: 34rem;
+    border-radius: 20px;
+    /* outline: 2px solid blue; */
+  }
+  .designer-top {
+    width: 100%;
+  }
+  .designer {
+    width: 100%;
+  }
+  .designer-bottom {
+    width: 100%;
+  }
+  .parent2 {
+    width: 100%;
+  }
+  .update {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-left: 0px;
+    font-family: Alfa Slab One;
+    font-weight: 400;
+    font-family: Kanit;
+  }
+  .bottom-images {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+  }
+  .update-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    height: 500px;
+    width: 400px;
+  }
+  .img2 {
+    height: 450px;
+    width: 350px;
+  }
+  .mens {
+    padding-right: 500px;
+  }
+}
