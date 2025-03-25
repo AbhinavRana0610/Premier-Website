@@ -661,3 +661,176 @@ body {
     padding-right: 500px;
   }
 }
+
+@media (min-width: 375px) and (max-width: 426px) {
+  .nav {
+    width: 100%;
+    gap: 0rem;
+  }
+  .model {
+    font-size: 0.8rem;
+    display: none;
+  }
+  .agency {
+    padding-right: 0.1rem;
+    padding-left: 1rem;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    display: none;
+  }
+
+  .premier {
+    margin-right: 12rem;
+    margin-left: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-family: Alfa Slab One;
+  }
+  .Women {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    /* border-left: solid 2px black; */
+    /* border-right: 2px solid black; */
+    padding: 19px 60px;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    display: none;
+  }
+  .copy {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 9px;
+    left: 115px;
+  }
+  .search {
+    /* border-left: 2px solid black; */
+    padding-top: 20.5px;
+    padding-bottom: 21.5px;
+    padding-left: 170%;
+    font-size: 0.8rem;
+    /* display: none; */
+  }
+  .management {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .parent {
+    width: 100%;
+  }
+  .alls {
+    padding-left: 15px;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-family: Caveat;
+  }
+  .alphabets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding: 25px 0px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 100%;
+    /* outline: 2px solid green; */
+  }
+  .video {
+    width: 22rem;
+    height: 11.6rem;
+    border-radius: 20px;
+    /* outline: 2px solid blue; */
+  }
+  .circle-images {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .march {
+    margin-top: -25px;
+    font-size: 0.7rem;
+  }
+  .fashion {
+    margin-top: -20px;
+  }
+  .mens {
+    margin-left: 20px;
+    margin-right: 150px;
+    font-size: 0.7rem;
+  }
+  .designer-top {
+    display: flex;
+    margin-top: 40px;
+    border-top: 2px solid black;
+    font-family: Noto Serif Khitan Small Script;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+  .designer {
+    width: 100%;
+    white-space: nowrap;
+  }
+  .designer-bottom {
+    width: 100%;
+  }
+  .parent2 {
+    width: 100%;
+  }
+  .update {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-left: 0px;
+    font-family: Alfa Slab One;
+    font-weight: 400;
+    font-family: Kanit;
+  }
+  .update-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom-images {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    height: 300px;
+    width: 250px;
+  }
+  .img2 {
+    height: 250px;
+    width: 200px;
+  }
+  .khadim {
+    font-size: small;
+  }
+  .premier-para {
+    font-size: xx-large;
+  }
+  .O {
+    padding-left: 90px;
+  }
+}
